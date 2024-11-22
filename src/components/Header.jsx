@@ -4,7 +4,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-neutral-900 text-beige shadow-md z-50 font-mono opacity-95 ">
+    <header className="fixed top-0 left-0 w-full bg-neutral-900 text-beige shadow-md z-50 font-mono opacity-95 tracking-widest font-light">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         <div className="text-2xl font-thin">R</div>
 
@@ -58,8 +58,8 @@ function Header() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <nav className="md:hidden mt-1">
-          <div className="flex flex-col space-y-4 pl-2 font-sans tracking-widest font-light">
+        <nav className="md:hidden mt-1 ">
+          <div className="flex flex-col space-y-4 pl-2 font-sans tracking-widest  ">
             <a href="#home" className="hover:text-slate-200">
               Home
             </a>

@@ -7,6 +7,15 @@ export default {
         beige: "#DAC5A7",
       },
     },
+    animation: {
+      glitch: "glitch 1s infinite",
+    },
+    keyframes: {
+      glitch: {
+        "0%, 100%": { textShadow: "2px 2px #ff00ff, -2px -2px #00ffff" },
+        "50%": { textShadow: "-2px -2px #ff00ff, 2px 2px #00ffff" },
+      },
+    },
   },
   plugins: [],
 };
