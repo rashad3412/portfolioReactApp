@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         beige: "#DAC5A7",
+        darkGray: "#1A1A1A",
       },
     },
     animation: {
