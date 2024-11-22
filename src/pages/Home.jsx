@@ -19,10 +19,8 @@ function HomePage() {
           and a border for small screens, removes the border at 768px
           (md:border-none). */}
 
-        <p className="font-mono w-10/12 p-2  mx-auto mt-3  text-beige leading-6 border border-stone-700 md:border-none md:pt-0 md:w-full md:mt-6 md:font-medium">
-          Welcome to my portfolio! I'm Rashad Edwards, a passionate Web
-          Developer. With premium design and innovative skills, I’m here to
-          bring to life the things we imagine but can't yet see!
+        <p className="font-sans text-2xl w-10/12 p-2  mx-auto mt-3  text-beige leading-9 border border-stone-700 font-extralight tracking-widest md:border-none md:pt-0 md:w-full md:mt-6 md:font-medium">
+          "Imagination, design, and innovation brought to life."
         </p>
       </div>
     </main>
