@@ -19,9 +19,9 @@ function App() {
         <section id="projects">
           <ProjectPage />
         </section>
-        {/* <section id="contact">
+        <section id="contact">
           <ContactPage />
-        </section> */}
+        </section>
       </main>
     </div>
   );

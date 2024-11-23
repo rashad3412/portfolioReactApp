@@ -2,8 +2,8 @@ import React from "react";
 
 function AboutPage() {
   return (
-    <div>
-      <div className="w-11/12 h-full bg-darkGray border border-stone-800 mt-6 mx-auto rounded">
+    <div className="bg-darkGray">
+      <div className="w-11/12 border border-stone-800  mx-auto rounded p-5">
         <h1 className="font-mono mt-2 pl-1 text-beige text-xs font-bold tracking-widest ">
           Rashad Edwards
         </h1>
