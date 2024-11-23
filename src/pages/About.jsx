@@ -65,6 +65,12 @@ function AboutPage() {
               <div className="bg-beige h-2 rounded w-3/5 transition-all duration-500"></div>
             </div>
           </div>
+          <div className="mb-2">
+            <span className="text-xs text-stone-300">Tailwind</span>
+            <div className="w-full bg-stone-700 rounded h-2 mt-1">
+              <div className="bg-beige h-2 rounded w-2/4 transition-all duration-500"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
