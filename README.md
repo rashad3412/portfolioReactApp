@@ -1,9 +1,35 @@
-# React + Vite
+# Rashad Edwards - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! This website showcases my journey as a Web Designer and Developer, highlighting my skills, projects, and passion for creating engaging and innovative digital experiences.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# portfolioReactApp
+- **Home Page**: A brief introduction and a glimpse of my professional journey.
+- **About Page**: Learn more about my background, skills, and inspirations.
+- **Projects**: Explore some of the exciting projects I've worked on, including links to live demos and GitHub repositories.
+- **Contact**: Connect with me via LinkedIn, GitHub, or by viewing my resume.
+
+## Technologies Used
+
+- **React.js**: For building the user interface.
+- **Tailwind CSS**: For efficient and responsive styling.
+- **React Icons**: For enhancing the visuals with icons.
+
+## How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-portfolio.git
+   ```
+2. Clone the repository:
+   ```bash
+   cd your-portfolio
+   ```
+3. Clone the repository:
+   ```bash
+   npm install
+   ```
+4. Clone the repository:
+   ```bash
+   npm run dev
+   ```

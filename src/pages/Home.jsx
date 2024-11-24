@@ -3,7 +3,7 @@ import img from "../assets/allBlack.jpg";
 
 function HomePage() {
   return (
-    <main className="pt-1 w-full flex flex-col items-center md:flex-row-reverse md:justify-center md:items-start md:gap-6 bg-darkGray">
+    <main className="pt-1 w-full flex flex-col items-center md:flex-row-reverse md:justify-center md:items-start md:gap-6 bg-darkGray md:pb-9">
       {/* Image Section */}
       <div className="relative w-2/4 mb-2 pt-2 md:w-1/3 md:mb-0 border-4 border-beige bg-black p-2 mt-28 shadow-md shadow-slate-600">
         <img src={img} alt="blackImage" className="w-full" />
