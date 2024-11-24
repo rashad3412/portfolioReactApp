@@ -17,27 +17,34 @@ function AboutPage() {
           see my latest projects.
         </p>
         <div className="mt-6 pl-3 mb-5">
-          <h2 className="text-beige text-sm font-bold tracking-widest mb-4">
+          <h2 className="text-beige text-sm font-bold tracking-widest mb-4 ">
             Milestones
           </h2>
           <div className="relative">
             <div className="border-l-2 border-stone-700 pl-4">
               <div className="mb-4">
+                <div className="text-beige text-xs font-medium">2024</div>
+                <div className="text-stone-300 text-sm mt-1">
+                  Expanded my skillset and deepened my understanding of
+                  programming.
+                </div>
+              </div>
+              <div className="mb-4">
                 <div className="text-beige text-xs font-medium">2023</div>
                 <div className="text-stone-300 text-sm mt-1">
-                  Graduated from Fullstack Academy
+                  Graduated from Fullstack Academy.
                 </div>
               </div>
               <div className="mb-4">
                 <div className="text-beige text-xs font-medium">2022</div>
                 <div className="text-stone-300 text-sm mt-1">
-                  Built my first React.js project
+                  Built my first React.js project.
                 </div>
               </div>
               <div>
                 <div className="text-beige text-xs font-medium">2020</div>
                 <div className="text-stone-300 text-sm mt-1">
-                  Started learning web development
+                  Started learning web development.
                 </div>
               </div>
             </div>

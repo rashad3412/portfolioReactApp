@@ -41,12 +41,12 @@ function ContactPage() {
         {/* CTA Section */}
         <div className="text-center">
           <a
-            href="/softwareDevloperRes.pdf" // Replace with the actual path to your PDF
+            href="/softwareDeveloperRes.pdf" // Replace with the actual path to your PDF
             target="_blank" // Opens the PDF in a new tab
             rel="noopener noreferrer" // Improves security by preventing access to the `window.opener` object
             className="inline-block px-6 py-2 bg-stone-300 text-black font-medium rounded-lg hover:bg-beige transition"
           >
-            Resume
+            View My Resume
           </a>
         </div>
       </div>
