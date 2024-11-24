@@ -33,3 +33,11 @@ Welcome to my portfolio! This website showcases my journey as a Web Designer and
    ```bash
    npm run dev
    ```
+
+## FeedBack
+
+- Feel free to open an issue or submit a pull request if you have any suggestions or feedback. I’d love to hear your thoughts!
+
+## Contact
+
+- https://www.linkedin.com/in/rashad-edwards-software-developer/
