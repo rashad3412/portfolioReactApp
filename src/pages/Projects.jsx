@@ -11,6 +11,42 @@ function ProjectPage() {
       {/* Project Section */}
       <div className="w-11/12 bg-neutral-800 border border-stone-800 mx-auto p-6 rounded-lg shadow-md">
         {/* Project Title */}
+        <h3 className="text-2xl font-normal text-beige mb-4">PhiloMood</h3>
+
+        {/* Project Description */}
+        <p className="text-stone-300 text-l leading-6 font-extralight">
+          PhiloMood is a single-page React application designed to inspire and
+          guide users by providing random philosophical quotes paired with their
+          authors. Users can interact with the app to get quotes that encourage
+          mindfulness and introspection.
+        </p>
+
+        {/* Action Buttons */}
+        <div className="flex justify-start gap-4 mt-6">
+          {/* GitHub Link */}
+          <a
+            href="https://github.com/rashad3412/philoMood"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 bg-beige text-black text-sm font-semibold rounded hover:bg-opacity-90 shadow transition"
+          >
+            GitHub Repo
+          </a>
+          {/* Live Site Link */}
+          <a
+            href="https://philomood.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 bg-beige text-black text-sm font-semibold rounded hover:bg-opacity-90 shadow transition"
+          >
+            Live Site
+          </a>
+        </div>
+      </div>
+
+      {/* Project Section */}
+      <div className="w-11/12 bg-neutral-800 border border-stone-800 mx-auto p-6 rounded-lg shadow-md mt-6">
+        {/* Project Title */}
         <h3 className="text-2xl font-normal text-beige mb-4">iNibble</h3>
 
         {/* Project Description */}
@@ -22,7 +58,7 @@ function ProjectPage() {
         </p>
 
         {/* Action Buttons */}
-        <div className="flex justify-start gap-4 mt-6">
+        <div className="flex justify-start gap-4 mt-5">
           {/* GitHub Link */}
           <a
             href="https://github.com/rashad3412/iNibble"
@@ -43,6 +79,7 @@ function ProjectPage() {
           </a>
         </div>
       </div>
+
       {/* Project Section */}
       <div className=" w-11/12 bg-neutral-800 border border-stone-800 mx-auto p-6 rounded-lg shadow-md mt-5">
         {/* Project Title */}
