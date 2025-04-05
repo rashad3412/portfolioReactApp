@@ -11,6 +11,46 @@ function ProjectPage() {
       {/* Project Section */}
       <div className="w-11/12 bg-neutral-800 border border-stone-800 mx-auto p-6 rounded-lg shadow-md">
         {/* Project Title */}
+        <h3 className="text-2xl font-normal text-beige mb-4">Sober Compass</h3>
+
+        {/* Project Description */}
+        <p className="text-stone-300 text-l leading-6 font-extralight">
+          Sober Compass is a supportive sobriety app designed to guide
+          individuals through their recovery journey with clarity and
+          compassion. It offers a personalized chatbot experience focused on
+          mindfulness, resilience, and growth. Whether you're at the beginning
+          of your path or years into sobriety, Sober Compass provides daily
+          encouragement, reflective insights, and practical tools to stay
+          grounded. <br />
+          *On-going Project*
+        </p>
+
+        {/* Action Buttons */}
+        <div className="flex justify-start gap-4 mt-6">
+          {/* GitHub Link */}
+          <a
+            href="https://github.com/rashad3412/sobercompass"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 bg-beige text-black text-sm font-semibold rounded hover:bg-opacity-90 shadow transition"
+          >
+            GitHub Repo
+          </a>
+          {/* Live Site Link */}
+          <a
+            href="https://sobercompass.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 bg-beige text-black text-sm font-semibold rounded hover:bg-opacity-90 shadow transition"
+          >
+            Live Site
+          </a>
+        </div>
+      </div>
+
+      {/* Project Section */}
+      <div className="w-11/12 bg-neutral-800 border border-stone-800 mx-auto p-6 rounded-lg shadow-md mt-6">
+        {/* Project Title */}
         <h3 className="text-2xl font-normal text-beige mb-4">MeezHaul</h3>
 
         {/* Project Description */}
@@ -25,7 +65,7 @@ function ProjectPage() {
         </p>
 
         {/* Action Buttons */}
-        <div className="flex justify-start gap-4 mt-6">
+        <div className="flex justify-start gap-4 mt-5">
           {/* GitHub Link */}
           <a
             href="https://github.com/rashad3412/moveTemplateReact"
@@ -38,42 +78,6 @@ function ProjectPage() {
           {/* Live Site Link */}
           <a
             href="https://movetemplatereact.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 bg-beige text-black text-sm font-semibold rounded hover:bg-opacity-90 shadow transition"
-          >
-            Live Site
-          </a>
-        </div>
-      </div>
-
-      {/* Project Section */}
-      <div className="w-11/12 bg-neutral-800 border border-stone-800 mx-auto p-6 rounded-lg shadow-md mt-6">
-        {/* Project Title */}
-        <h3 className="text-2xl font-normal text-beige mb-4">iNibble</h3>
-
-        {/* Project Description */}
-        <p className="text-stone-300 text-l leading-6 font-extralight">
-          iNibble is a web application that empowers users to make informed food
-          choices by providing insightful data about the nutritional impact of
-          various foods. It's designed to help users track and understand how
-          their meals affect their overall health.
-        </p>
-
-        {/* Action Buttons */}
-        <div className="flex justify-start gap-4 mt-5">
-          {/* GitHub Link */}
-          <a
-            href="https://github.com/rashad3412/iNibble"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 bg-beige text-black text-sm font-semibold rounded hover:bg-opacity-90 shadow transition"
-          >
-            GitHub Repo
-          </a>
-          {/* Live Site Link */}
-          <a
-            href="https://inibble.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-beige text-black text-sm font-semibold rounded hover:bg-opacity-90 shadow transition"

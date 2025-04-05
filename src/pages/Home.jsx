@@ -1,3 +1,9 @@
+/*
+ HomePage jsx file 
+Highlights what the purpose of page
+*/
+
+
 import React from "react";
 import img from "../assets/allBlack.jpg";
 
