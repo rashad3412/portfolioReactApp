@@ -61,7 +61,6 @@ function ProjectPage() {
           and stress-free move. With an easy-to-use interface, MeezHaul helps
           customers plan their move efficiently while providing reliable
           services for both local and long-distance relocations. <br />
-          *On-going Project*
         </p>
 
         {/* Action Buttons */}
